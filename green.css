@@ -12,6 +12,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    font-size: 18px;
 }
 
 nav{    
@@ -49,7 +50,7 @@ font-weight: 300;
 font-size: 40px;
 }
 
-.B1{
+.B1, .page3{
     display: flex;
     justify-content: space-between;
     padding: 2em;
@@ -131,7 +132,7 @@ width: 33%;
 }
 
 
-.box .para{
+.box .para .pic{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -150,6 +151,8 @@ footer{
     margin: 30px 10px 30px ;
     display: flex;    
     justify-content: space-between;
+    /* height: 50px;
+    color: rgba(145, 199, 136, 1)    ; */
 }
 
 .rs, .top{
@@ -172,4 +175,78 @@ footer a:hover{
 
 /* PAGE 3  CAS PRATIQUES */
 
+.page3{
+    display: flex;    
+}
 
+.coca, .mcd, .danone{
+    width: 369px;
+    height: 329px;
+    left: 40px;
+    top: 372px;
+    bottom: 200px;
+    width: 33%;
+}
+
+
+.foo3{
+    margin-top: 340px;
+}
+#txt{
+    text-align: justify;
+    width: 370px;
+}
+
+
+/* BASE SLIDER
+
+.slide{
+    float: left;
+}
+
+.slides{
+    width: calc(1205px*4);
+    animation: glisse 15s infinite;
+}
+
+.slider{
+    width: 1205px;
+    overflow: hidden;
+}
+
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    9%{
+        transform: translateX(0);
+    }
+
+    18%{
+        transform: translateX(0);
+    }
+
+    25%{
+        transform: translateX(-1205px);
+    
+    }
+
+    30%{
+        transform: translateX(-1205px);
+    
+    }
+    37%{
+        transform: translateX(-1205px);    
+    }
+
+    50%{
+        transform: translateX(-2410px);
+    
+    }
+
+} */
+
+
+
+
+    
