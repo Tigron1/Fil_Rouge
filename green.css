@@ -28,12 +28,13 @@ nav{
     margin-top: 20px;
 }
 
-
 nav a:hover{
     background:rgba(221, 255, 188, 1);
     transition: all 0.3s ease;
-    border-radius: 80px;
-    width: 80px;
+    border-radius: 90px;
+    justify-content: center;
+    /* width: 90px; */
+
 }
 
 
@@ -50,7 +51,7 @@ font-weight: 300;
 font-size: 40px;
 }
 
-.B1, .page3, .informer{
+.B1, .page3, .informer, .focus{
     display: flex;
     justify-content: space-between;
     padding: 2em;
@@ -61,7 +62,7 @@ p{
 }
 
 
-.D1, .infos{
+.D1, .infos, .verte{
     width: 40%;
     text-align: justify;
     margin-right: 30px;
@@ -186,7 +187,7 @@ footer{
     left: 40px;
     top: 372px;
     bottom: 200px;}
-    
+
 #txt{
     text-align: justify;
     width: 370px;
@@ -222,3 +223,23 @@ padding-top: 200px;
 margin-left: 35px;
 }
     
+
+/* page 5 FOCUS ILLUSION VERTE */
+
+span{
+    font-style: italic;
+}
+
+.note{
+    margin-top: 4px;
+}
+
+
+.foo3{
+    margin-top: 370px;
+
+}
+
+nav{
+    font-weight: 400;
+}
