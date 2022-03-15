@@ -50,7 +50,7 @@ font-weight: 300;
 font-size: 40px;
 }
 
-.B1, .page3{
+.B1, .page3, .informer{
     display: flex;
     justify-content: space-between;
     padding: 2em;
@@ -61,7 +61,7 @@ p{
 }
 
 
-.D1{
+.D1, .infos{
     width: 40%;
     text-align: justify;
     margin-right: 30px;
@@ -162,7 +162,7 @@ footer{
 
 
 
-footer a:hover{
+/* footer a:hover{
     background:rgb(221, 255, 188);
     transition: all 0.3s ease;
     border-radius: 80px;
@@ -170,13 +170,14 @@ footer a:hover{
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     width: 80px;
-}
+} */
 
 
 /* PAGE 3  CAS PRATIQUES */
 
 .page3{
-    display: flex;    
+    display: flex; 
+   
 }
 
 .coca, .mcd, .danone{
@@ -184,69 +185,40 @@ footer a:hover{
     height: 329px;
     left: 40px;
     top: 372px;
-    bottom: 200px;
-    width: 33%;
-}
-
-
-.foo3{
-    margin-top: 340px;
-}
+    bottom: 200px;}
+    
 #txt{
     text-align: justify;
     width: 370px;
 }
 
-
-/* BASE SLIDER
-
-.slide{
-    float: left;
+.pic{
+    margin-bottom: 2em;
 }
 
-.slides{
-    width: calc(1205px*4);
-    animation: glisse 15s infinite;
+/* PAGE 4 _ S'INFORMER*/
+
+.informer{
+    margin bottom: 2em;
+}
+/* s'INFORMER SUITE */
+
+#italic{
+    font-style: italic;
+font-weight: 300;
+font-size: 18px;
 }
 
-.slider{
-    width: 1205px;
-    overflow: hidden;
+#full{
+    height: 706px;
+    background: url(visuels/carbonne_.png) no-repeat center / cover;
+
 }
-
-@keyframes glisse{
-    0%{
-        transform: translateX(0);
-    }
-    9%{
-        transform: translateX(0);
-    }
-
-    18%{
-        transform: translateX(0);
-    }
-
-    25%{
-        transform: translateX(-1205px);
-    
-    }
-
-    30%{
-        transform: translateX(-1205px);
-    
-    }
-    37%{
-        transform: translateX(-1205px);    
-    }
-
-    50%{
-        transform: translateX(-2410px);
-    
-    }
-
-} */
-
-
-
-
+.carb{
+    width: 554px;
+height: 345px;
+left: 25px;
+padding-top: 200px;
+margin-left: 35px;
+}
     
