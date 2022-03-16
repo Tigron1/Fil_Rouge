@@ -33,7 +33,7 @@ nav a:hover{
     transition: all 0.3s ease;
     border-radius: 90px;
     justify-content: center;
-    /* width: 90px; */
+    /* width: 80px; */
 
 }
 
@@ -145,11 +145,14 @@ width: 33%;
     display: flex;
 }
 
+#ligne{
+    text-decoration: underline ;
+}
 
 /* FOOTER */
 
 footer{
-    margin: 30px 10px 30px ;
+    margin: 0px 10px 0px ;
     display: flex;    
     justify-content: space-between;
     /* height: 50px;
@@ -157,7 +160,13 @@ footer{
 }
 
 .rs, .top{
-    margin: 30px 25px 30px;
+    margin:30px 25px 30px;
+}
+
+.rs{
+    font-size: 14px;
+    font-style: italic ;
+    /* color: rgb(0, 65, 0); */
 }
 
 
@@ -198,7 +207,7 @@ footer{
 /* PAGE 4 _ S'INFORMER*/
 
 .informer{
-    margin bottom: 2em;
+    margin-bottom: 2em;
 }
 /* s'INFORMER SUITE */
 
@@ -246,7 +255,7 @@ nav{
 
 
 
-/* animation */
+/* animation 4e image au lieu de 3*/
 
 
 .slide{
@@ -263,17 +272,6 @@ nav{
     width: 775px;
     overflow: hidden;
 }
-
-
-.rs{
-    display: flex;
-    flex-direction: row;
-}
-    
-.ligne{
-    flex-direction: column;
-}
-
 
 
 
@@ -333,6 +331,7 @@ nav{
     }
 }
 
+/* debut responsive */
 
 img{
     display: block;
