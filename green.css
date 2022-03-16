@@ -33,7 +33,7 @@ nav a:hover{
     transition: all 0.3s ease;
     border-radius: 90px;
     justify-content: center;
-    /* width: 90px; */
+    /* width: 80px; */
 
 }
 
@@ -145,11 +145,14 @@ width: 33%;
     display: flex;
 }
 
+#ligne{
+    text-decoration: underline ;
+}
 
 /* FOOTER */
 
 footer{
-    margin: 30px 10px 30px ;
+    margin: 0px 10px 0px ;
     display: flex;    
     justify-content: space-between;
     /* height: 50px;
@@ -157,10 +160,14 @@ footer{
 }
 
 .rs, .top{
-    margin: 30px 25px 30px;
+    margin:30px 25px 30px;
 }
 
-
+.rs{
+    font-size: 14px;
+    font-style: italic ;
+    /* color: rgb(0, 65, 0); */
+}
 
 
 /* footer a:hover{
@@ -200,7 +207,7 @@ footer{
 /* PAGE 4 _ S'INFORMER*/
 
 .informer{
-    margin bottom: 2em;
+    margin-bottom: 2em;
 }
 /* s'INFORMER SUITE */
 
@@ -243,3 +250,97 @@ span{
 nav{
     font-weight: 400;
 }
+
+
+
+
+
+/* animation 4e image au lieu de 3*/
+
+
+.slide{
+    float: left;
+}
+
+.slides{
+    /* width: calc(775px * 3); */
+    width: calc(775px * 4);
+    animation: glisse 15s infinite;
+}
+
+.slider{
+    width: 775px;
+    overflow: hidden;
+}
+
+
+
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    0%{
+        transform: translateX(0);
+    }
+
+    10%{
+        transform: translateX(0);
+    }
+
+    20%{
+        transform: translateX(-775px);
+    
+    }
+
+    30%{
+        transform: translateX(-775px);
+    
+    }
+    40%{
+        transform: translateX(-775px);    
+    }
+
+    50%{
+        transform: translateX(-1550px);
+    
+    }
+
+    60%{
+        transform: translateX(-1550px);
+    
+    }
+    70%{
+        transform: translateX(-1550px);
+    
+    }
+    80%{
+        transform: translateX(-2325px);
+    
+    }
+    90%{
+        transform: translateX(-2325px);
+    
+    }
+    95%{
+        transform: translateX(-2325px);
+    
+    }
+    100%{
+        transform: translateX(0px);
+    
+    }
+}
+
+/* debut responsive */
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 1000px){
+    section{
+        flex-direction: column;
+    }
+    }
