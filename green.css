@@ -161,8 +161,6 @@ footer{
 }
 
 
-
-
 /* footer a:hover{
     background:rgb(221, 255, 188);
     transition: all 0.3s ease;
@@ -243,3 +241,107 @@ span{
 nav{
     font-weight: 400;
 }
+
+
+
+
+
+/* animation */
+
+
+.slide{
+    float: left;
+}
+
+.slides{
+    /* width: calc(775px * 3); */
+    width: calc(775px * 4);
+    animation: glisse 15s infinite;
+}
+
+.slider{
+    width: 775px;
+    overflow: hidden;
+}
+
+
+.rs{
+    display: flex;
+    flex-direction: row;
+}
+    
+.ligne{
+    flex-direction: column;
+}
+
+
+
+
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    0%{
+        transform: translateX(0);
+    }
+
+    10%{
+        transform: translateX(0);
+    }
+
+    20%{
+        transform: translateX(-775px);
+    
+    }
+
+    30%{
+        transform: translateX(-775px);
+    
+    }
+    40%{
+        transform: translateX(-775px);    
+    }
+
+    50%{
+        transform: translateX(-1550px);
+    
+    }
+
+    60%{
+        transform: translateX(-1550px);
+    
+    }
+    70%{
+        transform: translateX(-1550px);
+    
+    }
+    80%{
+        transform: translateX(-2325px);
+    
+    }
+    90%{
+        transform: translateX(-2325px);
+    
+    }
+    95%{
+        transform: translateX(-2325px);
+    
+    }
+    100%{
+        transform: translateX(0px);
+    
+    }
+}
+
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 1000px){
+    section{
+        flex-direction: column;
+    }
+    }
